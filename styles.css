@@ -1,0 +1,28 @@
+@media screen and (max-width: 599px) {
+
+.flex-container{
+    flex-direction:column !important;
+    justify-content:space-between !important;
+    align-items:center!important;
+}
+}
+
+.flex-container{
+    display: flex;
+    background: rgb(52, 146, 154);
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: flex-end;
+   align-items: flex-start;
+
+  
+    
+}
+.flex-item{
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    background-color: #8b8d8c;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
